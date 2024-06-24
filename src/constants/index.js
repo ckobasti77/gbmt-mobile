@@ -59,3 +59,14 @@ export const navLinks = [
       text: "Kontakt",
     },
   ];
+
+  export const casesImages = [
+    "/./assets/images/case1.png",
+    "/./assets/images/case2.png",
+    "/./assets/images/case3.png",
+    "/./assets/images/case4.png",
+    "/./assets/images/case5.png",
+    "/./assets/images/case6.png",
+    "/./assets/images/case7.png",
+    "/./assets/images/case8.png",
+]

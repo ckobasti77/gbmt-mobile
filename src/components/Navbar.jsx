@@ -49,7 +49,7 @@ const Navbar = () => {
       </a>
       <Burger navOpen={navOpen} toggleNav={toggleNav} />
       <div
-        className={`border-b-4 border-blue-500 lg:border-none py-8 lg:py-0 z-[9999999] rounded-b-xl  lg:rounded-b-none backdrop-blur-lg lg:backdrop-blur-none lg:bg-none flex flex-col lg:flex-row items-center gap-x-8 fixed lg:static ${navOpen ? "top-20" : "-top-96"} transition-all left-0 right-0 gap-y-8`}
+        className={`border-b-4 border-blue-500 lg:border-none py-8 lg:py-0 z-[9999999] rounded-b-xl  lg:rounded-b-none backdrop-blur-lg lg:backdrop-blur-none lg:bg-none flex flex-col lg:flex-row w-48 lg:w-auto items-center gap-x-8 fixed lg:static top-20 ${navOpen ? "right-0" : "-right-full"} transition-all gap-y-8`}
       >
         {navLinks.map((link) => (
           <a

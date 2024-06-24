@@ -51,7 +51,9 @@ const Model = () => {
   // }, []);
 
   return (
-    <section id="ajfon15" className="common-padding min-h-screen bg-[url(/./assets/images/bg-mirror.png)] bg-no-repeat bg-cover">
+    <section id="ajfon15" style={{ backgroundPosition: window.innerWidth < 1024 && '50% 50%' }} className="common-padding min-h-screen bg-[url(/./assets/images/bg-mirror2.png)] bg-no-repeat bg-left bg-cover">
+        {/* <div className="absolute inset-0 w-full h-full backdrop-blur-sm lg:backdrop-blur-md"></div> */}
+      
       <div className="screen-max-width">
         <h1 id="heading" className="translate-y-8 text-2xl lg:text-4xl text-center font-bold">
           Okrenite
