@@ -31,3 +31,18 @@ html {
 @keyframes l25 {
   100% {transform: rotate(1turn)}
 }
+
+
+.mini-mouse-scroll {
+  animation: updown 2s infinite alternate;
+}
+
+@keyframes updown {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(17.5px);
+  }
+}
