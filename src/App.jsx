@@ -1,8 +1,11 @@
 import Cases from "./components/Cases";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Location from "./components/Location";
 import Model from "./components/Model";
 import Navbar from "./components/Navbar";
+import Phone from "./components/Phone";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <Model />
       <Cases />
       <Location />
+      <Footer />
+      <Phone />
+      <ScrollToTop />
     </div>
   );
 }

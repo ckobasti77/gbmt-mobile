@@ -36,6 +36,7 @@ const Cases = () => {
         modules={[Pagination]}
         style={{ backgroundPosition: window.innerWidth < 1024 && '50% 50%' }}
         className="mySwiper flex flex-col-reverse justify-center gap-y-24 items-center min-h-screen bg-[url(/./assets/images/bg-normal2.png)] bg-no-repeat bg-cover"
+        id='maskice'
       >
         <h2 className="text-2xl lg:text-5xl">Maskice</h2>
         {casesImages.map((single, i) => (

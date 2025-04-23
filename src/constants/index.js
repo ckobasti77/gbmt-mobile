@@ -50,12 +50,12 @@ export const navLinks = [
     },
     {
       id: 3,
-      to: "/iskopi",
-      text: "Iskopi",
+      to: "#maskice",
+      text: "Maskice",
     },
     {
       id: 4,
-      to: "/kontakt",
+      to: "#kontakt",
       text: "Kontakt",
     },
   ];
