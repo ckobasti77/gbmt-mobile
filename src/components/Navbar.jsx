@@ -45,7 +45,8 @@ const Navbar = () => {
         href="#pocetak"
         className="link text-5xl opacity-0 cursor-pointer font-bold tracking-widest text-blue-500"
       >
-        <img src="/./assets/images/logo-name.avif" alt="logo" width="150" />
+        {/* <img src="/./assets/images/logo-name.avif" alt="logo" width="150" /> */}
+        <h1 className="font-bold text-5xl tracking-normal text-[#1E3D86] italic">Mobil Trend</h1>
       </a>
       <Burger navOpen={navOpen} toggleNav={toggleNav} />
       <div
