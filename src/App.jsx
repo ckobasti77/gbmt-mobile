@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Header />
       <Cards />
-      <Cases />
+      {/* <Cases />  */}
       <Location />
       <Footer />
       <Phone />

@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <ul
-      className={`text-[#eoeoeo] fixed top-0 w-full py-6 px-6 lg:px-36 flex items-center justify-between text-lg z-[999999] transition-all lg:hover:backdrop-blur-lg ${
+      className={`text-whote fixed top-0 w-full py-6 px-6 lg:px-36 flex items-center justify-between text-lg z-[999999] transition-all lg:hover:backdrop-blur-lg ${
         showNav ? "transform-none " : "transform -translate-y-full"
       }`}
     >
@@ -46,7 +46,7 @@ const Navbar = () => {
         className="link text-5xl opacity-0 cursor-pointer font-bold tracking-widest text-blue-500"
       >
         {/* <img src="/./assets/images/logo-name.avif" alt="logo" width="150" /> */}
-        <h1 className="font-bold text-[2.5rem] tracking-normal text-[#e0e0e0] italic">Mobil Trend</h1>
+        <h1 className="font-bold text-[2.5rem] tracking-normal text-white italic">Mobil Trend</h1>
       </a>
       <Burger navOpen={navOpen} toggleNav={toggleNav} />
       <div

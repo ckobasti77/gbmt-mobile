@@ -10,10 +10,10 @@ const Cards = () => {
         const Icon = card.icon;
         return (
           <div
-            className="flex flex-col items-center justify-between py-12 px-3 lg:px-12 w-full lg:w-1/3 h-[40vh] lg:h-[60vh] border-4 border-[#e0e0e0] rounded-tr-md rounded-bl-md rounded-tl-3xl rounded-br-3xl"
+            className="flex flex-col items-center justify-between py-12 px-3 lg:px-12 w-full lg:w-1/3 h-[40vh] lg:h-[60vh] border-4 border-white rounded-tr-md rounded-bl-md rounded-tl-3xl rounded-br-3xl"
             key={card.id}
           >
-            <div className="grid place-items-center w-24 h-24 rounded-full border-4 border-[#e0e0e0] bg-transparent">
+            <div className="grid place-items-center w-24 h-24 rounded-full border-4 border-white bg-transparent">
               <Icon className="w-8 h-8" />
             </div>
             <h3 className="text-2xl font-semibold">{card.title}</h3>
