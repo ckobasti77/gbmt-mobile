@@ -10,7 +10,7 @@ const Footer = () => {
       style={{ backgroundPosition: window.innerWidth < 1024 && '50% 50%' }}
     >
       Copyright © {currentYear}
-      <span className="ml-1 font-bold">Global Beo Mobil Trend</span>. All rights
+      <span className="ml-1 font-bold">Mobil Trend</span>. All rights
       reserved.
     </div>
   );

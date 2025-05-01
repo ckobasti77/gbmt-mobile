@@ -1,9 +1,33 @@
-import {
-    blackImg,
-    blueImg,
-    whiteImg,
-    yellowImg,
-  } from "../utils";
+import { blackImg, blueImg, whiteImg, yellowImg } from "../utils";
+
+import { Smartphone, Settings, ShieldCheck } from "lucide-react";
+
+export const cardsData = [
+  {
+    id: 1,
+    icon: Smartphone,
+    title: "Pouzdana Oprema",
+    description:
+      "Nudimo isključivo proverenu opremu vodećih brendova. Maske, stakla, punjači i ostali dodaci sa garancijom kvaliteta.",
+    iconColor: "text-blue-500",
+  },
+  {
+    id: 2,
+    icon: Settings,
+    title: "Precizna Popravka",
+    description:
+      "Servisirajmo sve modele telefona sa originalnim i kompatibilnim delovima. Brza dijagnostika i transparentni cenovnik.",
+    iconColor: "text-green-500",
+  },
+  {
+    id: 3,
+    icon: ShieldCheck,
+    title: "Sigurno Ulaganje",
+    description:
+      "Svi naši proizvodi i usluge dolaze sa garancijom. Vaši podaci i uređaji su u bezbednim rukama – bez skrivenih troškova.",
+    iconColor: "text-purple-500",
+  },
+];
 
 export const models = [
   {
@@ -38,35 +62,35 @@ export const sizes = [
 ];
 
 export const navLinks = [
-    {
-      id: 1,
-      to: "#pocetak",
-      text: "Početak",
-    },
-    {
-      id: 2,
-      to: "#ajfon15",
-      text: "iPhone 15 Pro",
-    },
-    {
-      id: 3,
-      to: "#maskice",
-      text: "Maskice",
-    },
-    {
-      id: 4,
-      to: "#kontakt",
-      text: "Kontakt",
-    },
-  ];
+  {
+    id: 1,
+    to: "#pocetak",
+    text: "Početak",
+  },
+  {
+    id: 2,
+    to: "#ajfon15",
+    text: "iPhone 15 Pro",
+  },
+  {
+    id: 3,
+    to: "#maskice",
+    text: "Maskice",
+  },
+  {
+    id: 4,
+    to: "#kontakt",
+    text: "Kontakt",
+  },
+];
 
-  export const casesImages = [
-    "/./assets/images/case1.png",
-    "/./assets/images/case2.png",
-    "/./assets/images/case3.png",
-    "/./assets/images/case4.png",
-    "/./assets/images/case5.png",
-    "/./assets/images/case6.png",
-    "/./assets/images/case7.png",
-    "/./assets/images/case8.png",
-]
+export const casesImages = [
+  "/./assets/images/case1.png",
+  "/./assets/images/case2.png",
+  "/./assets/images/case3.png",
+  "/./assets/images/case4.png",
+  "/./assets/images/case5.png",
+  "/./assets/images/case6.png",
+  "/./assets/images/case7.png",
+  "/./assets/images/case8.png",
+];
