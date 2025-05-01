@@ -1,4 +1,5 @@
 import Cards from "./components/Cards";
+import Model from "./components/Model";
 import Cases from "./components/Cases";
 import Footer from "./components/Footer";
 import Header from "./components/Header";

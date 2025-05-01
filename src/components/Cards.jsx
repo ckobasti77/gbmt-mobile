@@ -3,7 +3,9 @@ import { cardsData } from "../constants";
 
 const Cards = () => {
   return (
-    <div className="bg-[url(/./assets/images/bg-normal2.png)] bg-no-repeat bg-cover min-h-screen px-6 lg:px-36 flex items-center flex-wrap lg:flex-nowrap gap-8">
+    <div
+     style={{backgroundPosition: '50% 50%'}} 
+     className="py-12 lg:py-0 bg-[url(/./assets/images/bg-mirror2.png)] bg-no-repeat bg-cover min-h-screen px-6 lg:px-36 flex items-center flex-wrap lg:flex-nowrap gap-8">
       {cardsData.map((card) => {
         const Icon = card.icon;
         return (
